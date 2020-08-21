@@ -1,0 +1,325 @@
+@import '../../../assets/scss/variables';
+
+div.content{
+  div.card{
+    background-color: $color-background-7;
+    width: 100%;
+    height: 526;
+  }
+  div.card-text{
+    margin: 165px 48px 0px 48px;
+    width: 75%;
+    h1{
+      font-family: $font-m-Regular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 54px;
+      letter-spacing: -1.5px;
+      color: $color-gb-5;
+      margin-bottom: 8px;
+    }
+    p{
+      font-family: $font-l-Regular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.1px;
+      color: $color-gb-5;
+      margin-bottom: 24px;
+    }
+    a{
+      font-family: $font-l-Bold;
+      font-style: normal;
+      font-size: 18.66px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      text-decoration-line: underline;
+      color: $color-gb-4;
+    }
+  }
+  div.card-img{
+    background-image: url('../../../assets/images/Mask\ Group.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  div.informativeContent{
+    h1{
+      font-family: $font-m-Regular;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 46px;
+      color: $color-gt-2;
+    }
+    p{
+      font-family: $font-l-Regular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.1px;
+      color: $color-gt-2;
+    }
+    a{
+      font-family: $font-l-Bold;
+      font-style: normal;
+      font-size: 18.66px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      text-decoration-line: underline;
+      color: $color-gb-4;
+    }
+    div.content1{
+      margin-top: 80px;
+      p{
+        margin-top: 8px;
+      }
+    }
+    div.content2{
+      text-align: center;
+      margin-top: 92px;
+      img{
+        width: 336px;
+        height: 319px;
+      }
+    }
+    div.content3{
+      margin-top: 88px;
+      p{
+        margin-top: 8px;
+      }
+      a{
+        margin-top: 24px;
+      }
+    }
+    div.content4{
+      margin-top: 88px;
+      img{
+        width: 90%;
+        height: 80%;
+      }
+    }
+    div.content5{
+      margin-top: 88px;
+      margin-bottom: 32px;
+    }
+    div.contentCard{
+      div.card-body{
+        width: 432px;
+        height: 233.4px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        color: $color-gb-5;
+        img{
+          width: 50px;
+          height: 50px;
+          margin-bottom: 16px;
+        }
+        h4{
+          font-family: $font-m-Bold;
+          font-style: normal;
+          font-size: 20px;
+          line-height: 28px;
+          color: $color-gt-2;
+          margin-bottom: 8px;
+        }
+        p{
+          font-family: $font-l-Regular;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: $color-gt-2;
+        }
+      }
+
+    }
+    div.content6{
+      margin-top: 40px;
+      button{
+        width: 336px;
+        height: 52px;
+        border: none;
+        border-radius: 100px;
+        background-color: $color-link-1;
+        font-family: $font-m-Bold;
+        font-style: normal;
+        font-size: 18.66px;
+        line-height: 18px;
+        color: $color-gb-5;
+      }
+    }
+    div.content7{
+      margin-top: 88px;
+      img{
+        width: 56px;
+        height: 56px;
+      }
+    }
+    div.contentInfo{
+      margin-top: 40px;
+      margin-bottom: 88px;
+      img{
+        width: 48px;
+        height: 48px;
+      }
+      h4{
+        font-family: $font-m-Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: $color-gt-2;
+      }
+      p{
+        font-family: $font-l-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.1px;
+        color: $color-gt-2;
+      }
+    }
+    div.content8{
+      background-color: $color-background-8;
+      width: 100%;
+      height: 374px;
+      margin-bottom: 88px;
+      div.information{
+        padding: 80px 32px 0px 32px;
+        h2{
+          font-family: $font-m-Regular;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 46px;
+          color: $color-gb-5;
+          margin-bottom: 8px;
+        }
+        p{
+          font-family: $font-l-Regular;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 26px;
+          letter-spacing: 0.1px;
+          color: $color-gb-5;
+          margin-bottom: 64px;
+
+        }
+        a{
+          font-family: $font-l-Bold;
+          font-style: normal;
+          font-size: 18.66px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          text-decoration-line: underline;
+          color: $color-link-7;
+        }
+      }
+
+    }
+    div.content9{
+      background-color: $color-background-7;
+      width: 100%;
+      height: 374px;
+      margin-bottom: 88px;
+      div.information{
+        padding: 80px 32px 0px 32px;
+        h2{
+          font-family: $font-m-Regular;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 46px;
+          color: $color-gb-5;
+          margin-bottom: 8px;
+        }
+        p{
+          font-family: $font-l-Regular;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 26px;
+          letter-spacing: 0.1px;
+          color: $color-gb-5;
+          margin-bottom: 64px;
+
+        }
+        a{
+          font-family: $font-l-Bold;
+          font-style: normal;
+          font-size: 18.66px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          text-decoration-line: underline;
+          color: $color-gb-4;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 769px) {
+  div.content{
+    img.mobile{
+      display: none;
+    }
+  }
+}
+@media (max-width: 769px) {
+  div.content{
+    div.card{
+      background-color: $color-background-7;
+    }
+    div.card-text{
+      margin: 24px 16px 0px 16px;
+      width: 80%;
+      h1{
+        font-family: $font-m-Regular;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 46px;
+        letter-spacing: -1.5px;
+        color: $color-gb-5;
+        margin-bottom: 8px;
+      }
+      p{
+        font-family: $font-l-Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: $color-gb-5;
+        margin-bottom: 24px;
+      }
+      a{
+        font-family: $font-l-Bold;
+        font-style: normal;
+        font-size: 18.66px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-decoration-line: underline;
+        color: $color-gb-4;
+      }
+    }
+    div.card-img{
+      background-image: url('../../../assets/images/Mask\ Group.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: auto;
+    }
+    img.desk{
+      display: none;
+    }
+  }
+}
+

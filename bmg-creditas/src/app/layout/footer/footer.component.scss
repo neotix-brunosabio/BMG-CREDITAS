@@ -1,0 +1,136 @@
+@import './../../../assets/scss/variables';
+section#footer{
+  width: 100%;
+  height: 326px;
+  background-color: $color-background-8;
+  div.content1{
+    margin: 95px 32px 0px 32px ;
+    img{
+      width: 104px;
+      height: 59px;
+    }
+  }
+  div.content2{
+    margin: 80px 32px 0px 32px ;
+  }
+  div.content3{
+    margin: 76px 32px 0px 32px ;
+    img{
+      width: 140px;
+      margin: 0 5px 0 5px;
+    }
+    p{
+      margin-left: 5px;
+    }
+  }
+  div.contacts{
+    margin-top: 48px;
+  }
+  h6{
+    font-family: $font-m-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: $color-gb-5;
+  }
+  a{
+    font-family: $font-m-Bold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: $color-gb-5;
+    text-decoration-line: none;
+  }
+  p{
+    font-family: $font-l-Regular;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+    color: $color-gb-5;
+  }
+  div.socialMedias{
+    margin: 32px 0 48px 0;
+    a
+    img{
+      width: 20px;
+      height: 20px;
+      flex: none;
+      order: 4;
+      align-self: flex-start;
+      margin: 0 10px 0 10px;
+    }
+  }
+}
+@media (min-width:769px){
+  div.mediaContent3{
+    display: none;
+  }
+  div.mediaContent2{
+    display: none;
+  }
+  div.mediaContent1{
+    display: none;
+  }
+}
+@media (max-width:769px) {
+  section#footer{
+    height: 592px;
+    div.mediaContent3{
+      margin: 32px 24px 0px 24px ;
+      p{
+        margin-bottom: 0px;
+      }
+      div.linksApp
+      img{
+        width: 142px;
+        height: 59px;
+        margin: 0 8px 0 8px;
+      }
+    }
+    div.mediaContent2{
+      margin: 32px 24px 0px 24px ;
+    }
+    div.mediaContent1{
+      margin: 32px 24px 0px 24px ;
+    }
+    img.logoBmg{
+      width: 104px;
+      height: 59px;
+    }
+    div.contacts
+    div.space{
+      margin: 24px 0 24px 0;
+    }
+    div.content1{
+      display: none;
+    }
+    div.content2{
+      display: none;
+    }
+    div.content3{
+      display: none;
+    }
+    h6{
+      font-family: $font-l-Regular;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    a{
+      font-family: $font-l-Regular;
+      font-size: 18.66px;
+      line-height: 24px;
+      text-decoration-line: underline;
+    }
+    p{
+      font-family: $font-l-Regular;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    div.socialMedias{
+      margin: 7px 0 24px 0;
+    }
+  }
+}
+

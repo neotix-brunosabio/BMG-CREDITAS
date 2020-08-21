@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bmg-creditas"
+    }
+  },
+  "defaultProject": "bmg-creditas",
+  "cli": {
+    "analytics": "b3a10b3d-1872-4ced-841e-b45011b0b133"
+  }
 }
